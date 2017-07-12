@@ -1,0 +1,92 @@
+body {
+  font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
+  background: #090949;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font: normal 25px/1.2 "Fira Sans", "Helvetica Neue", sans-serif;
+  }
+header {
+  background-color: #293949;
+}
+.logo {
+  width: 20%;
+  margin: 0;
+}
+#menu {
+  float: right;
+  padding: 45px 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover, .dropdown-tab:hover .dropbtn {
+    background-color: lightblue;
+    border-radius: 5px;
+    box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+li.dropdown-tab {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ADD8E6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #87CEEB
+}
+.dropdown-tab:hover .dropdown-content {
+    display: block;
+}
+main {
+  margin: 5px;
+  padding: 5px;
+}
+img {
+  margin: 10px;
+  width: 40%;
+}
+.lavagem {
+  float: right;
+}
+.maps {
+  float: left;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 4px;
+}
+p {
+  text-indent: 15px;
+}
+
+.copyright {
+  text-align: center;
+}
