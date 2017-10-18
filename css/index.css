@@ -1,13 +1,13 @@
 body {
     font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
     background: #192939;
-    color: white;
     margin: 0;
     padding: 0;
 }
 
 h1 {
     font: normal 25px/1.2 "Fira Sans", "Helvetica Neue", sans-serif;
+    color: white;
 }
 
 header {
@@ -106,6 +106,7 @@ h1 {
 
 p {
     text-indent: 15px;
+    color: white;
 }
 
 .links {
@@ -117,14 +118,14 @@ a:hover {
     text-decoration: none;
 }
 
+.form-area {
+    width: 30%;
+}
+
 .social-icon {
     width: 4%;
     border-radius: 20px;
     float: right;
-}
-
-.copyright {
-    text-align: center;
 }
 
 .devby {
