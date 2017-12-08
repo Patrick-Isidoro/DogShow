@@ -40,13 +40,20 @@ li a,
     color: white;
     text-align: center;
     padding: 14px 16px;
+    transition: 0.3s ease;
 }
 
 li a:hover,
 .dropdown-tab:hover .dropbtn {
-    background-color: lightblue;
-    border-radius: 5px 5px 2px 2px;
+    background-color: rgba(176, 237, 255, 0.767);
+    border-radius: 30px 30px 30px 30px;
     box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
     text-decoration: none;
 }
 
@@ -57,11 +64,11 @@ li.dropdown-tab {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ADD8E6;
+    background-color: rgba(176, 237, 255, 0.767);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    border-radius: 1px 5px 5px 5px;
+    border-radius: 30px 30px 30px 30px;
 }
 
 .dropdown-content a {
@@ -73,7 +80,7 @@ li.dropdown-tab {
 }
 
 .dropdown-content a:hover {
-    background-color: #87CEEB
+    background-color: #87CEEB;
 }
 
 .dropdown-tab:hover .dropdown-content {
@@ -109,13 +116,34 @@ p {
     color: white;
 }
 
-.links {
-    color: LightSteelBlue;
+.textoPromo {
+    width: 100%;
+    text-align: left;
 }
 
-a,
-a:hover {
-    text-decoration: none;
+.promo1 {
+    width: 30%;
+    float: left;
+    margin: 5px;
+}
+
+.promo2 {
+    width: 30%;
+    float: left;
+    margin: 5px;
+}
+
+.textoForm {
+    width: 50%;
+    text-align: center;
+}
+
+.radioButton {
+    font-size: 13px;
+}
+
+.redirect {
+    color: LightSteelBlue;
 }
 
 .form-area {
@@ -123,7 +151,7 @@ a:hover {
 }
 
 .social-icon {
-    width: 4%;
+    width: 2em;
     border-radius: 20px;
     float: right;
 }

@@ -23,7 +23,7 @@
         <nav id="menu">
             <ul>
                 <li><a href="index.html">Início</a></li>
-                <li class="dropdown-tab"><a href="javascript:void(0)" class="dropbtn">Agendamentos</a>
+                <li class="dropdown-tab"><a href="reagendar.html" class="dropbtn">Agendamentos</a>
                     <div class="dropdown-content">
                         <a href="agendamentos.html">Novo Agendamento</a>
                         <a href="reagendar.html">Reagendar</a>
@@ -35,18 +35,48 @@
         </nav>
     </header>
     <main>
+        <article>
 
-        <footer>
+            <h1>Para reagendar, informe abaixo seu nome e telefone.</h1>
+            </br>
+            <p class="textoForm">Insira novamente seus dados que iremos entrar em contato para informar um novo horário disponível.</p>
 
-            <a href="#"><img class="social-icon" src="img/whats-icon.jpg" /> </a>
-            <a href="#"><img class="social-icon" src="img/insta-icon.jpg" /> </a>
-            <a href="https://www.facebook.com/DogShow-Jet-Wash-1955524384485510/"><img class="social-icon" src="img/face-icon.jpg" /> </a>
+        </article><br>
+        <div class="container">
+            <div class="form-area">
+                <form method="post">
+                    <div class="form-group">
 
-            <p class="devby">Developed by Patrick Isidoro</p>
+                        <input type="text" class="form-control" placeholder="Nome Completo" maxlength="40">
+                        <br>
 
-        </footer>
+                        <input type="text" class="form-control" placeholder="Telefone para Contato. Ex: xx 99999-9999" maxlength="11">
+                        <br>
+
+                        <p>Selecione o tipo de lavagem que você gostaria:</p>
+
+                        <p class="radioButton">
+                            <input type="radio" name="tipoLavagem" value="simples"> Lavagem Simples
+                            <input type="radio" name="tipoLavagem" value="completa"> Lavagem Completa
+                            <input type="radio" name="tipoLavagem" value="cera"> Lavagem Completa Com Cera
+                        </p>
+                    </div>
+                    </br>
+                    <button type="submit" class="btn btn-primary">Agendar</button>
+                </form>
+            </div>
+        </div>
 
     </main>
+    <footer>
+
+        <a href="#"><img class="social-icon" src="img/whats-icon.jpg" /> </a>
+        <a href="#"><img class="social-icon" src="img/insta-icon.jpg" /> </a>
+        <a href="https://www.facebook.com/DogShow-Jet-Wash-1955524384485510/"><img class="social-icon" src="img/face-icon.jpg" /> </a>
+
+        <p class="devby">Developed by Patrick Isidoro</p>
+
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
